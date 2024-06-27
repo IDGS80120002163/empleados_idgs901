@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    background-color: white;
+    margin: 20px;
+    color: #3e4144;
+}
+
+button {
+    background-color: blue;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.centrado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+/* Estilos específicos para el formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario button {
+    align-self: flex-start;
+    background-color: #007bff;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para la tabla */
+.tabla-empleados {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-empleados th, .tabla-empleados td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.tabla-empleados th {
+    background-color: #f2f2f2;
+}
+
+.tabla-empleados tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
